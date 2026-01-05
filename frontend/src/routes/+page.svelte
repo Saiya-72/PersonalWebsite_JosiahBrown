@@ -1,8 +1,3 @@
-<header>
-  <h1>Welcome to My Personal Website</h1>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/contact">Contact</a>
-  </nav>
-</header>
+<h1>Josiah Brown's Personal Website!</h1>
+<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
+<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
