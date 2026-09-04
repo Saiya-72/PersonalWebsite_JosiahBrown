@@ -1,11 +1,8 @@
-<svelte:head>
-    <title>UIndy Tutoring</title>
-</svelte:head>
+<script lang="ts">
+	import ProjectDetail from '$lib/components/ProjectDetail.svelte';
+	import { portfolioItems } from '$lib/data/portfolio';
 
-<h2>Description</h2>
+	const project = portfolioItems.tutoring;
+</script>
 
-<p>I recently started tutoring my peers and underclassmen in various subjects 
-    surrounding Software Engineering, Computer Science, and Physics.
-<br><br><br><br>
-    <a href="/">Home</a></p>
-
+<ProjectDetail {project} />
