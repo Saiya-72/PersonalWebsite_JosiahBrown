@@ -22,9 +22,9 @@ export const portfolioItems = {
 		summary:
 			'A full-stack university event platform for creating events, managing registration and permissions, and keeping Google Calendar in sync.',
 		description: [
-			'I worked across both sides of a university event management platform built around role-based access and Google Calendar integration. The goal was pretty straightforward: make creating, registering for, and managing events less fragmented for students and administrators.',
+			'I contributed across both sides of a university event management platform built around role-based access and Google Calendar integration. The objective was to provide a more unified workflow for students and administrators creating, registering for, and managing events.',
 			'On the backend, I built and refined FastAPI endpoints, worked on role-based access control, and wrote pytest coverage using a Red-Green-Refactor workflow. On the frontend, I worked in SvelteKit on authentication, profile editing, and the main user experience.',
-			'A lot of the useful work was in the bugs that crossed layers. When a calendar event did not appear—or did not disappear when it should—I had to trace the issue through authentication, API logic, Firestore state, and Google Calendar behavior instead of assuming the problem lived in one file.'
+			'Many of the most involved issues crossed application layers. When a calendar event did not appear or did not disappear as expected, I traced the behavior through authentication, API logic, Firestore state, and Google Calendar integration.'
 		],
 		highlights: [
 			'Built event CRUD endpoints with role-based access control',
@@ -58,9 +58,9 @@ export const portfolioItems = {
 		summary:
 			'A fast-moving data project using public information, social signals, and sentiment analysis to look for early changes in Midwest energy discussion.',
 		description: [
-			'I worked with students from other universities through TechPoint’s Xtern Challenge on a prompt from the Midcontinent Independent System Operator (MISO). We were looking for signals that could show a change in stakeholder strategy before it became obvious in a formal proposal.',
+			'I collaborated with students from other universities through TechPoint’s Xtern Challenge on a prompt from the Midcontinent Independent System Operator (MISO). The project focused on identifying signals of changing stakeholder strategy before those changes appeared in formal proposals.',
 			'My part of the project was heavily data-focused. I built Python scripts to gather news and social data, cleaned and filtered it around MISO-relevant grid stressors, and used sentiment analysis and visualizations to compare public discussion with more formal energy-sector information.',
-			'The data was messy and some of the APIs were restrictive, so the project involved a lot of adapting as we went. It was good practice in deciding what was actually useful, what was noise, and how to turn a pile of imperfect data into something we could explain in a short presentation.'
+			'The project required adapting to incomplete data and restrictive APIs. It strengthened my ability to distinguish useful signals from noise and present findings from imperfect datasets under a short deadline.'
 		],
 		highlights: [
 			'Built Python pipelines for news, social, and public energy data',
@@ -94,8 +94,8 @@ export const portfolioItems = {
 		summary:
 			'Peer tutoring in software engineering, computer science, and physics, with the focus on understanding the reasoning instead of memorizing an answer.',
 		description: [
-			'I tutor other students in software engineering, computer science, and physics. Most sessions are less about giving somebody a solution and more about finding the exact point where the problem stopped making sense to them.',
-			'Tutoring has made me much better at explaining technical ideas without hiding behind jargon. If I cannot explain why a piece of code, an algorithm, or a physics setup works, that usually tells me I need to understand it better too.'
+			'I tutor students in software engineering, computer science, and physics. Sessions focus on identifying the point of confusion and developing a solution strategy rather than providing an answer without context.',
+			'This work has strengthened my ability to explain technical ideas clearly and without unnecessary jargon. It also reinforces the importance of understanding the reasoning behind code, algorithms, and physical models.'
 		],
 		highlights: [
 			'Explain programming and engineering concepts in approachable terms',
@@ -125,8 +125,8 @@ export const portfolioItems = {
 		summary:
 			'Fast-paced retail work that taught me a lot about accuracy, customer communication, and staying useful when several things need attention at once.',
 		description: [
-			'At Kroger I worked directly with customers and operated the point-of-sale system in a high-volume environment. It was a simple job on paper, but doing it well meant being accurate, quick, professional, and aware of what was happening around me at the same time.',
-			'I also helped train more than ten new employees on register operations and customer-service expectations. That ended up being good practice in explaining a process clearly and noticing when somebody understands the steps but not yet the reason behind them.'
+			'At Kroger I worked directly with customers and operated point-of-sale systems in a high-volume environment. The role required accuracy, efficiency, professional communication, and situational awareness.',
+			'I also trained more than ten new employees on register operations and customer-service expectations, strengthening my ability to communicate processes clearly and support consistent performance.'
 		],
 		highlights: [
 			'Mentored 10+ new employees on POS operations and customer service',
@@ -154,9 +154,9 @@ export const portfolioItems = {
 		summary:
 			'Hands-on automotive manufacturing work that gave me a close look at just-in-time production, quality, and what happens when one part of a system falls behind.',
 		description: [
-			'During summer 2026 I worked in automotive seat production. It gave me a much better feel for how a physical production system works when every station depends on the one before it and the finished product has to keep moving.',
+			'During summer 2026 I worked in automotive seat production. The role provided direct experience with a physical production system in which each station depends on the preceding process and the finished product must maintain a steady flow.',
 			'I learned how just-in-time manufacturing affects inventory, scheduling, quality, and line efficiency. Over the summer I contributed to the production of more than 28,000 seats used in the GMC Sierra line.',
-			'I did not go into the job expecting it to connect much with software, but it did. Clear handoffs, small process failures, quality checks, bottlenecks, and downstream dependencies look different on a factory floor, but the systems thinking is very familiar.'
+			'The experience also reinforced systems-thinking principles familiar from software: clear handoffs, quality checks, bottlenecks, process failures, and downstream dependencies.'
 		],
 		highlights: [
 			'Contributed to production of 28,000+ GMC Sierra seats',
@@ -216,11 +216,11 @@ export const portfolioItems = {
 		category: 'Project',
 		period: 'University of Indianapolis',
 		summary:
-			'A team-built combat robot where I managed the project and wrote most of the software responsible for making the physical system behave.',
+			'A team-built combat robot for which I managed the project and developed most of the software controlling the physical system.',
 		description: [
-			'I was Project Manager for a team designing and building a combat robot for semester competitions. I kept the project organized, tracked deadlines, and made sure we were actually moving toward something that could survive testing instead of just looking complete on paper.',
-			'I also acted as the lead software developer and wrote most of the robot-control code. Debugging was a lot more fun—and a lot less forgiving—when a software mistake immediately turned into a motor, control, or mechanical problem in front of us.',
-			'That project is a big reason I enjoy embedded and systems work. There is something satisfying about writing code and then watching a physical machine prove whether your assumptions were right.'
+			'I served as Project Manager for a team designing and building a combat robot for semester competitions. I coordinated the schedule, tracked deadlines, and kept development focused on a system that could withstand testing.',
+			'I also served as lead software developer and wrote most of the robot-control code. Debugging required connecting software behavior to motor, control, and mechanical performance during physical testing.',
+			'The project strengthened my interest in embedded and systems work by connecting software decisions directly to the behavior of a physical machine.'
 		],
 		highlights: [
 			'Led project planning, deadlines, and team coordination',

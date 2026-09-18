@@ -31,14 +31,14 @@
 		<div class="shell hero-grid">
 			<div class="hero-copy reveal">
 				<p class="eyebrow">Software Engineering + Computer Science</p>
-				<h1>I like building things that have to work <em>outside the demo.</em></h1>
+				<h1>Engineering software and systems for <em>real-world use.</em></h1>
 				<p class="hero-lede">
-					I’m Josiah Brown, a student at the University of Indianapolis. Most of my work lands
-					somewhere between full-stack software, embedded systems, data, and whatever problem needs
-					solving next.
+					I’m Josiah Brown, a Software Engineering and Computer Science student at the University of
+					Indianapolis. My work spans full-stack software, embedded systems, data, and engineering
+					problem-solving.
 				</p>
 				<div class="hero-actions">
-					<a class="button button-primary" href="#projects">See what I’ve built <span aria-hidden="true">↘</span></a>
+					<a class="button button-primary" href="#projects">View selected work <span aria-hidden="true">↘</span></a>
 					<a class="button button-secondary" href="#experience">Experience</a>
 				</div>
 				<div class="hero-stats" aria-label="Quick facts">
@@ -56,14 +56,14 @@
 					</svg>
 				</div>
 				<div class="field-copy">
-					<p class="field-kicker">Where I spend most of my time</p>
+					<p class="field-kicker">Areas of focus</p>
 					<ul class="field-list">
 						<li><span>01</span> Full-stack software</li>
 						<li><span>02</span> Systems + embedded work</li>
 						<li><span>03</span> Data + APIs</li>
-						<li><span>04</span> Debugging the weird stuff</li>
+						<li><span>04</span> Systems debugging</li>
 					</ul>
-					<p class="field-note">Readable code first. Fancy architecture only when it earns its keep.</p>
+					<p class="field-note">Clear, maintainable code supported by thoughtful design and testing.</p>
 				</div>
 			</div>
 		</div>
@@ -73,18 +73,17 @@
 		<div class="shell two-col">
 			<div class="section-heading reveal">
 				<p class="section-label">About</p>
-				<h2>I’ve been programming since eighth grade. I never really stopped.</h2>
+				<h2>Building a foundation in software, systems, and engineering.</h2>
 			</div>
 			<div class="about-copy reveal delay-1">
 				<p>
-					What keeps me interested isn’t one language or framework. It’s taking a messy problem,
-					figuring out how the pieces actually fit together, and leaving behind something another
-					person can understand and maintain.
+					I’m interested in the full engineering process: understanding a problem, designing a practical
+					solution, and delivering software that another person can maintain.
 				</p>
 				<p>
 					At UIndy I’ve worked across web development, APIs, data analysis, VR, embedded programming,
-					and team engineering projects. I care about clean code and testing, but I care just as much
-					about knowing why a system works—and being able to find the reason when it doesn’t.
+					and collaborative engineering projects. I value clean code, effective testing, and the ability
+					to understand and troubleshoot a system from end to end.
 				</p>
 			</div>
 		</div>
@@ -95,9 +94,9 @@
 			<div class="section-top reveal">
 				<div>
 					<p class="section-label">Experience</p>
-					<h2>A mix of software, people, and real production work.</h2>
+					<h2>Experience across software, instruction, and production.</h2>
 				</div>
-				<p>Not all of it is software—and I think that’s useful. Each role changed how I communicate, troubleshoot, or work inside a larger system.</p>
+				<p>Each role has strengthened my communication, troubleshooting, and ability to contribute within a larger system.</p>
 			</div>
 			<div class="card-grid">
 				{#each experiences as item, index}
@@ -114,9 +113,9 @@
 			<div class="section-top reveal">
 				<div>
 					<p class="section-label">Projects</p>
-					<h2>The ones that made me figure something out.</h2>
+					<h2>Projects shaped by constraints and technical decisions.</h2>
 				</div>
-				<p>These projects pushed past the clean textbook version of engineering and into actual constraints, tradeoffs, client needs, hardware, and team decisions.</p>
+				<p>These projects involved practical constraints, technical tradeoffs, client requirements, hardware, and team decisions.</p>
 			</div>
 			<div class="card-grid project-grid">
 				{#each projects as item}
@@ -130,8 +129,8 @@
 		<div class="shell skills-grid">
 			<div class="section-heading reveal">
 				<p class="section-label">Toolkit</p>
-				<h2>Tools I can actually sit down and work with.</h2>
-				<p class="section-intro">I’m happiest when I can understand the whole path: interface, backend, data flow, tests, and the system underneath it.</p>
+				<h2>Technical tools and areas of practice.</h2>
+				<p class="section-intro">I work across the full path from interface and backend to data flow, testing, and the systems underneath.</p>
 			</div>
 			<div class="skill-list reveal delay-1">
 				{#each coreSkills as skill, index}
